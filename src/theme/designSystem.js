@@ -2,6 +2,8 @@ const colors = {
   primary: "#DB3022",
   secondary: "#EFC849",
   accent: "#2AA952",
+  white: "white",
+  black: "black",
 };
 
 const typography = {
@@ -18,4 +20,13 @@ const typography = {
   },
 };
 
-export { colors, typography };
+const genericStyles = {
+  inputBase: {
+    borderRadius: 50,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    padding: 10,
+  },
+};
+
+export { colors, typography, genericStyles };
