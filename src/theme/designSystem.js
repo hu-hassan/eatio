@@ -22,7 +22,7 @@ const typography = {
 
 const genericStyles = {
   inputBase: {
-    borderRadius: 50,
+    borderRadius: 10,
     borderWidth: 1,
     borderColor: colors.accent,
     padding: 10,
