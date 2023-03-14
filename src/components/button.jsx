@@ -41,6 +41,7 @@ const base = {
   padding: 14,
   alignItems: "center",
   marginVertical: 5,
+  flex: 1,
 };
 
 const styles = StyleSheet.create({
